@@ -1,3 +1,10 @@
+<?php 
+
+	require "../application/controller/loginController.php";
+
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -30,9 +37,7 @@
 				<h2 class="dummy-heading">CS21GO</h2>
 			</div>
             <div class="bp-header__main">
-                <h1 class="bp-header__title">Sign in through steam</h1>
-                <nav class="bp-nav">
-                   <img src="img/sits_small.png" alt="">
+            		<?= $image ?>
                 </nav>
             </div>
 		</header>
