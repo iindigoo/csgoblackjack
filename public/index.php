@@ -1,5 +1,4 @@
 <?php 
 
-	require ../
-
+	require '../application/view/index/index.php';
  ?>
