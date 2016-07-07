@@ -17,6 +17,7 @@
 	<!-- menu styles -->
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<script src="js/modernizr-custom.js"></script>
+	
 </head>
 
 <body>
@@ -71,26 +72,18 @@
 			</div>
 		</nav>
 		<div class="content">
-            <h2 class="testh2l">Welcome to CS21GO</h2>
+		<div class="mainImage">
+			<img src="img/cards.png" alt="">
+		</div>
+            <h2 class="testh2">Welcome to CS21GO</h2>
 			<p class="info">Welcome to CSGO Diamonds the premier CSGO gambling experience! CSGO Diamonds aims to be the leading pioneer of CSGO gambling. There's something magical about winning and we want to bring that experience to everyone. With CSGO Diamonds, security, customer support, and interface fluidity are our top priority. You'll be sure to be gambling securely and in style.</p>
 
-            <h2 class="testh2">Deposit your skins for Diamonds, roll the dice and win big.</h2>
-            <p class="test">Bet diamonds on a dice with payout ranging from 1.01x to 9500x, you choose the payout and winning roll! Whether you are a low risk low reward type of gambler or high risk high reward it doesn't matter, we cater to all types of gamblers at CSGO Diamonds.</p>
+			<div class="gif">
+			<h2 class="testh2"> Blackjack as easy as 123</h2>
+           	 	<img src="img/blackjack.gif" alt="">
+			</div>
 
-            <h2 class="testh2">Trade in your diamonds in our marketplace for CSGO skins!</h2>
-            <p class="test">Browse a wide selection of skins in our marketplace. Simply pick out some skins, checkout and you will receive them within seconds. Feel free to deposit and withdraw as many times as you like, there are no fees for this process!</p>
 
-            <h2 class="testh2">Trade in your diamonds in our marketplace for CSGO skins!</h2>
-            <p class="test">Browse a wide selection of skins in our marketplace. Simply pick out some skins, checkout and you will receive them within seconds. Feel free to deposit and withdraw as many times as you like, there are no fees for this process!</p>
-
-            <h2 class="testh2">Trade in your diamonds in our marketplace for CSGO skins!</h2>
-            <p class="test">Browse a wide selection of skins in our marketplace. Simply pick out some skins, checkout and you will receive them within seconds. Feel free to deposit and withdraw as many times as you like, there are no fees for this process!</p>
-
-            <h2 class="testh2">Trade in your diamonds in our marketplace for CSGO skins!</h2>
-            <p class="test">Browse a wide selection of skins in our marketplace. Simply pick out some skins, checkout and you will receive them within seconds. Feel free to deposit and withdraw as many times as you like, there are no fees for this process!</p>
-
-            <h2 class="testh2">Trade in your diamonds in our marketplace for CSGO skins!</h2>
-            <p class="test">Browse a wide selection of skins in our marketplace. Simply pick out some skins, checkout and you will receive them within seconds. Feel free to deposit and withdraw as many times as you like, there are no fees for this process!</p>
 			<!-- Ajax loaded content here -->
 		</div>
 	</div>
@@ -136,6 +129,7 @@
 			setTimeout(function() {
 				classie.remove(gridWrapper, 'content--loading');
 				gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+
 			}, 700);
 		}
 	})();

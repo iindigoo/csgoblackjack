@@ -284,6 +284,25 @@ a:hover {
 	text-align: center;
 }
 
+.info {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.mainImage {
+	margin-top: -10px;
+	text-align: center;
+}
+
+.gif  {
+	text-align: center;
+}
+
+.gif img {
+	width: 600px;
+	border: 10px solid #1C1D22;
+}
+
 
 body #cdawrap {
 	top: auto;
