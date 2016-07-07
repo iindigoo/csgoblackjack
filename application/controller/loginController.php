@@ -41,7 +41,7 @@
       }
     }
     } else {
-     echo "User is not logged in.\n";
+     $LoginFail = "User Not logged in";
      }
     }
    } catch(ErrorException $e) {

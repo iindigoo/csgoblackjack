@@ -1,5 +1,6 @@
 <?php 
-
+	$image = "";
+	$LoginFail = "";
 	require "../application/controller/loginController.php";
 
  ?>
@@ -38,6 +39,7 @@
 			</div>
             <div class="bp-header__main">
             		<?= $image ?>
+            		<?= $LoginFail ?>
                 </nav>
             </div>
 		</header>
