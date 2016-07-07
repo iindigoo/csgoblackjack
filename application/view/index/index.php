@@ -72,21 +72,18 @@
 			</div>
 		</nav>
 		<div class="content">
-		<div class="mainImage">
-			<img src="img/cards.png" alt="">
+		<div class="box">
+		<div class="centerImage">
+		<img src="img/test.jpg" alt=""></div>
+		<h1> free coins</h1>
+			<input name="freecoins" placeholder="Enter your code here" type="text" class="form-control ember-view ember-text-field">
+
+			<button name="coinButton" class="btn btn-blackened ember-view">  Redeem Code
+</button>
 		</div>
-            <h2 class="testh2">Welcome to CS21GO</h2>
-			<p class="info">Welcome to CSGO Diamonds the premier CSGO gambling experience! CSGO Diamonds aims to be the leading pioneer of CSGO gambling. There's something magical about winning and we want to bring that experience to everyone. With CSGO Diamonds, security, customer support, and interface fluidity are our top priority. You'll be sure to be gambling securely and in style.</p>
+		<!-- Ajax loaded content here -->
 
-			<div class="gif">
-			<h2 class="testh2"> Blackjack as easy as 123</h2>
-           	 	<img src="img/blackjack.gif" alt="">
-			</div>
-
-
-			<!-- Ajax loaded content here -->
 		</div>
-	</div>
 	<!-- /view -->
 	<script src="js/classie.js"></script>
 	<script src="js/dummydata.js"></script>

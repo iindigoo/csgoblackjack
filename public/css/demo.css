@@ -273,35 +273,72 @@ a:hover {
 	padding-right: 1em;
 }
 
-.testh2 {
+.box {
+	box-shadow: 5px 5px 5px #282930;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 7px;
+	width: 500px;
+	height: 290px;
+	background-color: #1C1D22;
+
+	padding-top: 15px;
+}
+
+.box h1 {
+	text-transform: uppercase;
+	color: white;
 	font-weight: bold;
+	font-family: arial;
+	padding-left: 35px;
+	padding-top: 5px;
+	font-size: 18px;
+	opacity: 0.5;
+	text-align: left;
+}
+
+
+.form-control {
+    width: 430px;
+    height: 34px;
+    margin-left: 35px;
+    padding: 6px 12px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input[name=freecoins] {
+   background-color: #1A2529;
+   border: none;
+   height: 50px;
+   font-size: 15px;
+   opacity: 0.5;
+}
+
+button[name="coinButton"] {
+	width: 430px;
+	height: 50px;
+	margin-left: 35px;
+	margin-top: 15px;
+	background-color: #1B2025;
+	border: none;
+	color: #fff;
+	opacity: 0.5;
+	border: 3px solid #1C1D61;
+	border-radius: 5px;
+}
+
+.centerImage {
 	text-align: center;
 }
 
-.testh2l {
-	margin-top: 80px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.info {
-	padding-left: 150px;
-	padding-right: 150px;
-}
-
-.mainImage {
-	margin-top: -10px;
-	text-align: center;
-}
-
-.gif  {
-	text-align: center;
-}
-
-.gif img {
-	width: 600px;
-	border: 10px solid #1C1D22;
-}
 
 
 body #cdawrap {
