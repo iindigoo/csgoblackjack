@@ -273,6 +273,7 @@ a:hover {
 	padding-right: 1em;
 }
 
+/* Dit is de free coins box css */
 .box {
 	box-shadow: 5px 5px 5px #282930;
 	margin-left: auto;
@@ -337,6 +338,161 @@ button[name="coinButton"] {
 
 .centerImage {
 	text-align: center;
+}
+
+/*Dit is de support box css */
+.supportBox {
+	box-shadow: 5px 5px 5px #282930;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 7px;
+	width: 500px;
+	height: 450px;
+	background-color: #1C1D22;
+
+	padding-top: 15px;
+}
+
+.supportBox h1 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	padding-left: 35px;
+	padding-top: 5px;
+	font-size: 18px;
+	opacity: 0.5;
+	text-align: left;
+}
+
+
+textarea[name=supportTextBox] {
+   background-color: #1A2529;
+   border: none;
+   height: 150px;
+   width: 430px;
+   font-size: 15px;
+   opacity: 0.5;
+   color: white;
+   margin-left: 35px;
+   padding: 15px;
+   resize: none;
+}
+
+input[name=supportEmailBox] {
+   background-color: #1A2529;
+   border: none;
+   color: white;
+   height: 50px;
+   font-size: 12px;
+   opacity: 0.5;
+   margin-top: 5px;
+}
+
+button[name="sendEmail"] {
+	width: 430px;
+	height: 50px;
+	margin-left: 35px;
+	margin-top: 10px;
+	background-color: #1B2025;
+	border: none;
+	color: #fff;
+	opacity: 0.5;
+	border: 3px solid #1C1D61;
+	border-radius: 5px;
+}
+
+/* Hier is alles TOS style */
+.tosBox {
+	box-shadow: 5px 5px 5px #282930;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 7px;
+	width: 500px;
+	background-color: #1C1D22;
+
+	padding-top: 15px;
+}
+
+.tosBox h1 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	padding-left: 35px;
+	padding-top: 5px;
+	font-size: 18px;
+	opacity: 0.5;
+	text-align: left;
+}
+
+.infoTos h2 {
+	padding-left: 35px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	opacity: 0.5;
+	font-family: arial;
+}
+
+.infoTos p {
+	padding-left: 35px;
+	padding-right: 35px;
+	color: white;
+	opacity: 0.7;
+}
+
+.centerImageTos {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* Alle style van de faq box */
+
+.FaqBox {
+	box-shadow: 5px 5px 5px #282930;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 7px;
+	width: 500px;
+	background-color: #1C1D22;
+
+	padding-top: 15px;
+}
+
+.FaqBox h1 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	padding-left: 35px;
+	padding-top: 5px;
+	font-size: 18px;
+	opacity: 0.5;
+	text-align: left;
+}
+
+.infoFaq h2 {
+	padding-left: 35px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	opacity: 0.5;
+	font-family: arial;
+}
+
+.infoFaq p {
+	padding-left: 35px;
+	padding-right: 35px;
+	color: white;
+	opacity: 0.7;
+}
+
+.centerImageFaq {
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 
