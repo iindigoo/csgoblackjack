@@ -31,7 +31,7 @@ function check_card_exist($check_card)
 if (!function_exists('get_highest_card_1')) {
 function get_highest_card_1($get_card_number)
 {
-
+	
 }}
 /*End card Functions*/
 
