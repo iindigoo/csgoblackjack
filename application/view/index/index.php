@@ -28,62 +28,8 @@
 	
 </head>
 
-<body>
-	<!-- Main container -->
-	<div class="container">
-		<!-- Blueprint header -->
-		<header class="bp-header cf">
-			<div class="dummy-logo">
-				<div class="dummy-icon foodicon foodicon--coconut"></div>
-				<h2 class="dummy-heading">CS21GO</h2>
-			</div>
-            <div class="bp-header__main">
             		<?= $image ?>
             		<?= $LoginFail ?>
-                </nav>
-            </div>
-		</header>
-		<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
-		<nav id="ml-menu" class="menu">
-			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
-			<div class="menu__wrap">
-				<ul data-menu="main" class="menu__level">
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-1" href="#">Games</a></li>
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-2" href="#">Account</a></li>
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-3" href="#">Depoist</a></li>
-                    <li class="menu__item"><a class="menu__link" data-submenu="submenu-4" href="#">Withdraw</a></li>
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-5" href="#">Extras</a></li>
-				</ul>
-				<!-- Submenu 1 -->
-				<ul data-menu="submenu-1" class="menu__level">
-					<li class="menu__item"><a class="menu__link" href="#">Blackjack</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Roulette</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Free coins</a></li>
-				</ul>
-				<!-- Submenu 2 -->
-				<ul data-menu="submenu-2" class="menu__level">
-					<li class="menu__item"><a class="menu__link" href="#">Settings</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">History</a></li>
-					<li class="menu__item"><a class="menu__link"  href="#">Affiliates</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Statistics</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#">Sign out</a></li>
-				</ul>
-
-				<!-- Submenu 4 -->
-				<ul data-menu="submenu-5" class="menu__level">
-					<li class="menu__item"><a class="menu__link" href="#">FAQ</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">How to play</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Terms of Service</a></li>
-					<li class="menu__item"><a class="menu__link" href="#">Support</a></li>
-				</ul>
-			</div>
-		</nav>
-		<div class="content">
-		lol
-		<!-- Ajax loaded content here -->
-
-
-		</div>
 	<!-- /view -->
 	<script src="js/classie.js"></script>
 	<script src="js/dummydata.js"></script>
